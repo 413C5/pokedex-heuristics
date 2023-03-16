@@ -1,0 +1,1576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cry1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry100.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry101.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry102.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry103" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry103.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry104" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry104.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry105" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry105.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry106" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry106.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry107" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry107.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry108" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry108.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry109" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry109.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry11.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry110.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry111.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry112.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry113.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry114" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry114.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry115" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry115.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry116" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry116.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry117" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry117.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry118" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry118.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry119" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry119.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry12.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry120.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry121.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry122.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry123.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry124" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry124.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry125" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry125.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry126" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry126.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry127" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry127.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry128.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry129" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry129.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry13.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry130" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry130.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry131.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry132.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry133.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry134" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry134.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry135" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry135.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry136" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry136.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry137" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry137.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry138" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry138.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry139" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry139.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry14.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry140.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry141.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry142" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry142.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry143" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry143.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry144.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry145" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry145.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry146" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry146.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry147" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry147.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry148" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry148.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry149" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry149.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry15.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry150" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry150.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry151.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry16.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry17.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry18.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry19.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry20.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry21.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry22.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry23.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry24.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry25.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry26.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry27.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry28.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry29.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry30.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry31.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry32.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry33.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry34.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry35.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry36.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry37.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry38.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry39.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry40.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry41.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry42.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry43.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry44.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry45.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry46.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry47.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry48.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry49.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry50.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry51.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry52.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry53.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry54.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry55.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry56.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry57.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry58.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry59.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry6.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry60.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry61.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry62.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry63.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry64.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry65.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry66.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry67.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry68.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry69.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry7.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry70.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry71.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry72.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry73.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry74.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry75.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry76" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry76.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry77" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry77.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry78" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry78.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry79" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry79.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry8.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry80.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry81.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry82" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry82.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry83.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry84.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry85" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry85.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry86.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry87" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry87.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry88.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry89" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry89.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry9.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry90.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry91.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry92" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry92.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry93" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry93.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry94" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry94.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry95.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry96.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry97" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry97.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry98" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry98.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cry99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry99.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fondoApp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondoApp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FondoQuizz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FondoQuizz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconoPokebola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconoPokebola.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Interrogacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Interrogacion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoPokedex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoPokedex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lupa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lupa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lupa3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lupa3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="missingno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\missingno.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic100Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic100Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic101.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic101Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic101Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic102.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic102Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic102Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic103" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic103.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic103Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic103Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic104" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic104.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic104Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic104Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic105" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic105.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic105Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic105Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic106" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic106.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic106Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic106Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic107" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic107.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic107Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic107Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic108" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic108.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic108Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic108Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic109" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic109.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic109Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic109Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic10Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic10Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic110.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic110Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic110Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic111Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic111Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic112.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic112Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic112Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic113.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic113Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic113Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic114" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic114.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic114Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic114Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic115" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic115.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic115Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic115Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic116" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic116.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic116Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic116Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic117" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic117.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic117Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic117Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic118" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic118.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic118Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic118Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic119" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic119.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic119Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic119Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic11Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic11Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic120.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic120Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic120Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic121Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic121Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic122Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic122Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic123.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic123Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic123Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic124" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic124.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic124Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic124Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic125" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic125.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic125Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic125Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic126" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic126.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic126Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic126Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic127" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic127.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic127Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic127Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic128Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic128Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic129" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic129.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic129Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic129Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic12Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic12Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic130" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic130.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic130Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic130Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic131.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic131Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic131Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic132.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic132Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic132Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic133.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic133Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic133Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic134" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic134.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic134Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic134Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic135" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic135.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic135Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic135Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic136" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic136.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic136Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic136Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic137" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic137.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic137Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic137Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic138" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic138.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic138Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic138Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic139" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic139.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic139Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic139Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic13Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic13Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic140.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic140Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic140Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic141.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic141Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic141Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic142" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic142.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic142Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic142Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic143" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic143.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic143Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic143Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic144.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic144Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic144Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic145" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic145.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic145Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic145Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic146" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic146.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic146Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic146Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic147" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic147.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic147Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic147Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic148" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic148.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic148Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic148Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic149" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic149.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic149Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic149Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic14Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic14Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic150" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic150.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic150Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic150Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic151.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic151Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic151Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic15Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic15Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic16Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic16Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic17Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic17Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic18Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic18Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic19Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic19Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic1Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic1Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic20Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic20Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic21Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic21Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic22Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic22Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic23Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic23Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic24Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic24Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic25Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic25Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic26Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic26Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic27Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic27Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic28Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic28Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic29Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic29Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic2Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic2Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic30Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic30Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic31Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic31Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic32Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic32Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic33Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic33Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic34Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic34Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic35Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic35Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic36Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic36Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic37Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic37Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic38Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic38Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic39Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic39Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic3Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic3Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic40Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic40Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic41Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic41Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic42Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic42Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic43Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic43Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic44Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic44Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic45Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic45Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic46Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic46Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic47Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic47Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic48Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic48Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic49Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic49Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic4Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic4Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic50Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic50Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic51Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic51Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic52Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic52Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic53Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic53Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic54Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic54Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic55Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic55Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic56Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic56Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic57Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic57Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic58Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic58Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic59Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic59Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic5Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic5Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic60Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic60Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic61Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic61Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic62Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic62Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic63.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic63Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic63Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic64Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic64Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic65.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic65Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic65Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic66.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic66Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic66Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic67.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic67Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic67Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic68.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic68Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic68Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic69.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic69Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic69Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic6Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic6Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic70.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic70Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic70Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic71Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic71Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic72Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic72Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic73.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic73Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic73Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic74Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic74Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic75Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic75Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic76" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic76.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic76Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic76Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic77" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic77.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic77Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic77Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic78" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic78.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic78Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic78Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic79" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic79.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic79Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic79Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic7Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic7Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic80Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic80Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic81.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic81Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic81Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic82" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic82.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic82Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic82Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic83Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic83Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic84.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic84Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic84Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic85" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic85.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic85Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic85Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic86Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic86Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic87" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic87.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic87Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic87Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic88.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic88Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic88Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic89" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic89.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic89Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic89Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic8Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic8Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic90Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic90Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic91.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic91Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic91Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic92" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic92.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic92Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic92Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic93" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic93.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic93Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic93Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic94" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic94.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic94Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic94Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic95.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic95Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic95Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic96Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic96Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic97" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic97.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic97Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic97Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic98" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic98.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic98Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic98Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic99Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic99Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic9Dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic9Dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picLogo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picLogo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picPlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picPlay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picPlay2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picPlay2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picPlay3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picPlay3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picPlay4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picPlay4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picPlay5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picPlay5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipoAcero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipoAcero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipoAgua" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipoAgua.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipoBicho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipoBicho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipoDragón" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipoDragon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipoEléctrico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipoElectrico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipoFantasma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipoFantasma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipoFuego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipoFuego.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipoHielo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipoHielo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipoLucha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipoLucha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipoNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipoNormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipoPlanta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipoPlanta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipoPsíquico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipoPsiquico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipoRoca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipoRoca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipoSiniestro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipoSiniestro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipoTierra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipoTierra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipoVeneno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipoVeneno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipoVolador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipoVolador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

@@ -1,4 +1,4 @@
-# Pokedex
+# Pokédex
 
 This program is a recreation of a Pokédex, where users can get detailed information about different species of Pokémon. Among the features of this app include:
 

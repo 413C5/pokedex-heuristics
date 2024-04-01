@@ -19,7 +19,7 @@ In order to design the interfaces, the focus was on applying design heuristics t
 - Make sure that the following workloads are installed:
   - .NET desktop development
 
-- If you want to try out this app, you can download the .exe from releases.
+- If you want to try out this program, you can download the .exe from releases.
 
 # About this Project
 
